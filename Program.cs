@@ -13,7 +13,18 @@ namespace tpModul6_1302223023
         {
             String title = "Tutorial Design By Contract - Rindang Bani Isyan";
             SayaTubeVideo vid = new SayaTubeVideo(title);
-            vid.IncreasePlayCount(3);
+            
+            try
+            {
+                for (int i = 0; i < 10000000; i++)
+                {
+                    vid.IncreasePlayCount(1);
+                }
+
+            }catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
             vid.printVideoDetails();
         }
     }

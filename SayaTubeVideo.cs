@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +16,7 @@ namespace tpModul6_1302223023
 
        public SayaTubeVideo(String title)
         {
+            Contract.Requires(title != null || title.Length <= 100);
             this.title = title;
             this.id = randomID();
             this.playCount = 0;
@@ -26,8 +29,18 @@ namespace tpModul6_1302223023
 
         public void IncreasePlayCount(int playCount)
         {
-            this.playCount = playCount;
-            this.playCount++;
+            Debug.Assert(playCount <= 10000000);
+            try
+            {
+                checked
+                {
+                    this.playCount = playCount;
+                    this.playCount++;
+                }
+            }catch (OverflowException)
+            {
+                Console.WriteLine("Jumlah penambahan play count melebihi batas tertinggi integer (overflow).");
+            }
         }
 
         public void printVideoDetails()
