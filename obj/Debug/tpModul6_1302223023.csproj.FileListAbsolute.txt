@@ -1,0 +1,7 @@
+C:\Users\rinda\OneDrive\Documents\C#\tpModul6_1302223023\tpModul6_1302223023\bin\Debug\tpModul6_1302223023.exe.config
+C:\Users\rinda\OneDrive\Documents\C#\tpModul6_1302223023\tpModul6_1302223023\bin\Debug\tpModul6_1302223023.exe
+C:\Users\rinda\OneDrive\Documents\C#\tpModul6_1302223023\tpModul6_1302223023\bin\Debug\tpModul6_1302223023.pdb
+C:\Users\rinda\OneDrive\Documents\C#\tpModul6_1302223023\tpModul6_1302223023\obj\Debug\tpModul6_1302223023.csproj.AssemblyReference.cache
+C:\Users\rinda\OneDrive\Documents\C#\tpModul6_1302223023\tpModul6_1302223023\obj\Debug\tpModul6_1302223023.csproj.CoreCompileInputs.cache
+C:\Users\rinda\OneDrive\Documents\C#\tpModul6_1302223023\tpModul6_1302223023\obj\Debug\tpModul6_1302223023.exe
+C:\Users\rinda\OneDrive\Documents\C#\tpModul6_1302223023\tpModul6_1302223023\obj\Debug\tpModul6_1302223023.pdb
